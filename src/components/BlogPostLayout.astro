@@ -1,0 +1,12 @@
+---
+const {frontmatter} = Astro.props;
+---
+<html>
+  <!-- ... -->
+  <h1>{frontmatter.title}</h1>
+  <h2>投稿者: {frontmatter.author}</h2>
+  <p>{frontmatter.pubDate}投稿(最終更新:{frontmatter.editDate})</p>
+  {frontmatter.tag.forEach((tag) => <a href="/blog/posts/"></a>)}
+  <slot /> <!-- Markdownコンテンツはここに挿入されます -->
+   <!-- ... -->
+</html>
