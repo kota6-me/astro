@@ -1,0 +1,21 @@
+---
+const {frontmatter} = Astro.props;
+import type { MarkdownLayoutProps } from 'astro';
+
+type Props = MarkdownLayoutProps<{
+  // フロントマターのpropsをここで定義します
+  title: string;
+  author: string;
+  pubDate: string;
+  editDate: string;
+  image: {url: string, alt: string};
+  tag: Array<string>
+}>;
+let tags = frontmatter.tag;
+---
+  <!-- ... -->
+  <h1>{frontmatter.title}</h1>
+  <h2>投稿者: {frontmatter.author}</h2>
+  <p>{frontmatter.pubDate}投稿(最終更新:{frontmatter.editDate})</p>
+  {tags}
+  <slot /> <!-- Markdownコンテンツはここに挿入されます -->

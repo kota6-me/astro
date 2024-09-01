@@ -59,14 +59,14 @@ tags:
 
 <sub>*すべての写真は著作権法により一切の二次利用を禁止します。*</sub>
 
-![A Normal Day of Brooklyn](IMG_0673_Original.jpg)
+![A Normal Day of Brooklyn](/assets/IMG_0673_Original.jpg)
 
-![Chuzenjiko lake](IMG_2126_Original.jpg)
+![Chuzenjiko lake](/assets/IMG_2126_Original.jpg)
 
-![This isn't default wallpaper of macOS](IMG_2172_Original.jpg)
+![This isn't default wallpaper of macOS](/assets/IMG_2172_Original.jpg)
 
-![National Stadium - Japan](IMG_2720_Original.jpg)
+![National Stadium - Japan](/assets/IMG_2720_Original.jpg)
 
-![Old plate of station name](IMG_3188_Original.jpg)
+![Old plate of station name](/assets/IMG_3188_Original.jpg)
 
-![Japanese narrow alley](IMG_5615_Original.jpg)
+![Japanese narrow alley](/assets/IMG_5615_Original.jpg)
