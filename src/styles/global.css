@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
 html {
-  background-color: #f1f5f9;
+  background-color: #fffafa;
+  color: #543f32;
   font-family: sans-serif;
 }
 
 html.dark {
-  background-color: #0d0950;
-  color: #fff;
+  background-color: #180614;
+  color: #f8f4e6;
 }
 
 .dark .nav-links a {
-  color: #fff;
+  color: #f8f4e6;
 }
 
 body {
@@ -18,6 +20,55 @@ body {
   max-width: 80ch;
   padding: 1rem;
   line-height: 1.5;
+}
+
+.noto-serif-jp-200 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.noto-serif-jp-300 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.noto-serif-jp-400 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.noto-serif-jp-500 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.noto-serif-jp-600 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.noto-serif-jp-700 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.noto-serif-jp-800 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.noto-serif-jp-900 {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 * {
