@@ -1,12 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 私の3番目のブログ記事
-author: Astro学習者
-description: "上手くいかないことがありましたが、コミュニティに質問して助けてもらいました！"
+title: My Third Blog Post
+author: Astro Learner
+description: "I had some challenges, but asking in the community really helped!"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "Astroの光線のサムネイル。"
+  url: "https://docs.astro.build/assets/rays.webp"
+  alt: "The word community with a heart."
 pubDate: 2022-07-15
-tags: ["astro", "公開学習", "後退", "コミュニティ"]
+tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-すべてがスムーズにいくわけではありませんでしたが、Astroで何かを作るのは楽しいです。そして、[Discordコミュニティ](https://astro.build/chat)は本当にフレンドリーで助けになります！
+
+It wasn't always smooth sailing, but I'm enjoying building with Astro. And, the [Discord community](https://astro.build/chat) is really friendly and helpful!

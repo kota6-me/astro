@@ -1,25 +1,29 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: '私の最初のブログ記事'
+title: 'My First Blog Post'
 pubDate: 2022-07-01
-description: 'これは私の新しいAstroブログの最初の記事です。'
-author: 'Astro学習者'
+description: "This is the first post of my new Astro blog."
+author: "Astro Learner"
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'Astroのロゴ。'
-tags: ["astro", "ブログ", "公開学習"]
+  url: "https://docs.astro.build/assets/full-logo-light.png"
+  alt: "The Astro logo with the word One."
+tags: ["astro", "blogging", "learning in public"]
 ---
 
-Astroの学習についての私の _新しいブログ_ へようこそ！ここでは、新しいウェブサイトを作りながら、私の学習過程を共有します。
+# My First Blog Post
 
-## 達成したこと
+Published on: 2022-07-01
 
-1. **Astroのインストール**: まず、新しいAstroプロジェクトを作成し、オンラインアカウントを設定しました。
+Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
-2. **ページの作成**: 次に、新しい`.astro`ファイルを作成し、それを`src/pages/`フォルダに配置することで、ページを作成する方法を学びました。
+## What I've accomplished
 
-3. **ブログ記事の作成**: これが私の最初のブログ記事です！AstroページとMarkdownの記事があります！
+1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
 
-## 次の目標
+2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
 
-Astroチュートリアルを終え、さらに記事を追加していきます。これからもこの場所をご覧ください。
+3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+
+## What's next
+
+I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.

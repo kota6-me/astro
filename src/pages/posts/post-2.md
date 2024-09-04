@@ -1,12 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 私の2番目のブログ記事
-author: Astro学習者
-description: "Astroを少し学んだら、止まらなくなりました！"
+title: My Second Blog Post
+author: Astro Learner
+description: "After learning some Astro, I couldn't stop!"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Astroのアークのサムネイル。"
+  url: "https://docs.astro.build/assets/arc.webp"
+  alt: "Thumbnails of websites from the Astro Showcase site."
 pubDate: 2022-07-08
-tags: ["astro", "ブログ", "公開学習", "成功"]
+tags: ["astro", "blogging", "learning in public", "successes"]
 ---
-Astroを学習し始めて最初の1週間が上手くいったので、もう少し試してみることにしました。小さなコンポーネントを書いてメモリーからインポートしました！
+
+After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!

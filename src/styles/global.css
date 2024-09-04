@@ -1,50 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  *,
-  *::before,
-  *::after {
-    @apply box-border;
-  }
-  body {
-    @apply font-cav;
-    @apply font-urb;
-    @apply font-emj;
-  }
-}
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48;
-}
-
-:root::-webkit-scrollbar {
-  background: #CBD5E1;
-  width: 10px;
-  height: 10px;
-}
-:root::-webkit-scrollbar-thumb {
-  background-color: #FB923C;
-  border-radius: 5px;
-}
-
 html {
-  background-color: #fffafa;
-  color: #543f32;
+  background-color: #f1f5f9;
   font-family: sans-serif;
-}
-
-html.dark {
-  background-color: #180614;
-  color: #f8f4e6;
 }
 
 body {
@@ -64,7 +20,8 @@ h1 {
   font-size: 2.5rem;
 }
 
-/* ナビゲーションのスタイル */
+/* nav styles */
+
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
@@ -75,21 +32,14 @@ h1 {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #543f32;
-}
-
-.dark .hamburger .line {
-  display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #f8f4e6;
+  background-color: #ff9776;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
+  background-color: #ff9776;
   display: none;
   margin: 0;
 }
@@ -104,8 +54,9 @@ h1 {
   text-transform: uppercase;
 }
 
-.nav-links a:hover, a:focus {
-  background-color: #FB923C;
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #ff9776;
 }
 
 .expanded {
@@ -129,4 +80,13 @@ h1 {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
